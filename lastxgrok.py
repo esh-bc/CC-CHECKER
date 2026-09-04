@@ -128,9 +128,9 @@ ADMIN_ID = 5807965902
 KEY_ADMINS = {5807965902}
 OWNER_USERNAME = "iam_eshh"
 OWNER_NAME = "ᴇ ꜱ ʜ ᥫ᭡"
-CHANNEL_LINK = "https://t.me/+EvomvB1P6QM4M2Y1"
-GROUP_LINK = "https://t.me/HitByDark"
-CHANNEL_USERNAME = "HitByDark"          # for join check (adjust if private)
+CHANNEL_LINK = "https://t.me/+a_Zh1YV6C4E5ZTY1"
+GROUP_LINK = "https://t.me/hilexxhits"
+CHANNEL_USERNAME = "hilexxhits"          # for join check (adjust if private)
 BOT_NAME = "ʜ ᴇ ʟ ᴇ x メ"
 KEY_PREFIX = "ʜ ᴇ ʟ ᴇ x メ"
 
