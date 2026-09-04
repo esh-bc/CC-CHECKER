@@ -123,16 +123,16 @@ def get_api():
 # ============================================================
 API_ID = 34392279
 API_HASH = '79deab91ba4c2642677f04a0d0e74bd2'
-BOT_TOKEN = '8964246918:AAEWVPbkkdnp2RLjdQdWrBvKBEGOwLIBL9s'   # ← change if you have new token
+BOT_TOKEN = '8982610472:AAH4TBnKWjUk_VHRMOJ1DuKgjn9vOZ_Ce_w'   # ← change if you have new token
 ADMIN_ID = 5807965902
 KEY_ADMINS = {5807965902}
-OWNER_USERNAME = "DarkCarder05"
+OWNER_USERNAME = "iam_eshh"
 OWNER_NAME = "⚡⏤‌‌‌𝘿𝘼𝙍𝙆 𝘾@𝙍𝘿𝙀𝙍 👑"
 CHANNEL_LINK = "https://t.me/+EvomvB1P6QM4M2Y1"
 GROUP_LINK = "https://t.me/HitByDark"
 CHANNEL_USERNAME = "HitByDark"          # for join check (adjust if private)
-BOT_NAME = "DarkCarder Checker"
-KEY_PREFIX = "DARKCARDER"
+BOT_NAME = "ʜ ᴇ ʟ ᴇ x メ"
+KEY_PREFIX = "ʜ ᴇ ʟ ᴇ x メ"
 
 PREMIUM_FILE = 'premium.txt'
 SITES_FILE = 'sites.txt'
