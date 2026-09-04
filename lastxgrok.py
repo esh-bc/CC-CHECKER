@@ -127,7 +127,7 @@ BOT_TOKEN = '8982610472:AAH4TBnKWjUk_VHRMOJ1DuKgjn9vOZ_Ce_w'   # ← change if y
 ADMIN_ID = 5807965902
 KEY_ADMINS = {5807965902}
 OWNER_USERNAME = "iam_eshh"
-OWNER_NAME = "⚡⏤‌‌‌𝘿𝘼𝙍𝙆 𝘾@𝙍𝘿𝙀𝙍 👑"
+OWNER_NAME = "ᴇ ꜱ ʜ ᥫ᭡"
 CHANNEL_LINK = "https://t.me/+EvomvB1P6QM4M2Y1"
 GROUP_LINK = "https://t.me/HitByDark"
 CHANNEL_USERNAME = "HitByDark"          # for join check (adjust if private)
@@ -2745,10 +2745,7 @@ async def start_handler(event):
 • Shopify + Razorpay Gates
 • Bulk Check up to 100k
 • Real-time Progress + Hits
-• Proxy + Site Manager
-• Feedback System
 • Advanced Stats
-• Full Admin Panel
 ━━━━━━━━━━━━━━━━━━━━
 <b>👑 Owner:</b> <a href="tg://user?id={ADMIN_ID}">{OWNER_NAME}</a>
 <b>📢 Channel:</b> <a href="{CHANNEL_LINK}">Join Channel</a>
@@ -2784,7 +2781,7 @@ async def start_handler(event):
 @bot.on(events.CallbackQuery(data=b"admin_panel"))
 async def admin_panel(event):
     if not is_admin(event.sender_id):
-        await event.answer("❌ Admins only", alert=True)
+        await event.answer("nice try but its  Admins only !", alert=True)
         return
     await event.answer()
     stats = load_stats()
@@ -2831,7 +2828,7 @@ async def admin_genkeys(event):
 <code>/key 10 7</code> → 10 keys of 7 days
 <code>/multikey 3 30 5</code> → multi-device (days devices)
 ━━━━━━━━━━━━━━━━━━━━
-Keys start with <code>DARKCARDER-</code>"""
+Keys start with <code>HILEX-</code>"""
     await event.edit(premium_emoji(text), buttons=[[Button.inline("🔙 Admin", b"admin_panel")]], parse_mode="html")
 
 @bot.on(events.CallbackQuery(data=b"admin_fullstats"))
@@ -3073,10 +3070,6 @@ async def back_to_start(event):
 • Shopify + Razorpay Gates
 • Bulk Check up to 100k
 • Real-time Progress + Hits
-• Proxy + Site Manager
-• Feedback System
-• Advanced Stats
-• Full Admin Panel
 ━━━━━━━━━━━━━━━━━━━━
 <b>👑 Owner:</b> <a href="tg://user?id={ADMIN_ID}">{OWNER_NAME}</a>
 <b>📢 Channel:</b> <a href="{CHANNEL_LINK}">Join Channel</a>
