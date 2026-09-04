@@ -2528,7 +2528,7 @@ async def send_final_results(chat_id, results):
 🤖 <b>Bot By: <a href="tg://user?id={ADMIN_ID}">{OWNER_NAME}</a></b>"""
 
     timestamp = datetime.now(pytz.timezone('Asia/Kolkata')).strftime("%Y%m%d_%H%M%S")
-    filename = f"DarkCarder_Result_{chat_id}_{timestamp}.txt"
+    filename = f"ʜ ᴇ ʟ ᴇ x メ{chat_id}_{timestamp}.txt"
 
     async with aiofiles.open(filename, 'w', encoding='utf-8') as f:
         await f.write("=" * 70 + "\n")
